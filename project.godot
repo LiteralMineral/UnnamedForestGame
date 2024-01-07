@@ -14,11 +14,11 @@ config/name="Unnamed Forest Game"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
+[dotnet]
+
+project/assembly_name="Unnamed Forest Game"
+
 [editor]
 
 version_control/plugin_name="GitPlugin"
 version_control/autoload_on_startup=true
-
-[rendering]
-
-renderer/rendering_method="mobile"
